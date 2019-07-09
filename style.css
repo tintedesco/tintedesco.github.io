@@ -1,0 +1,245 @@
+body {
+	font-family: Amiri;
+	font-size: 16px;
+	color: #888888;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+body.page1 {
+	background-image: url("images/bg/bg1.png");
+	text-align: center;
+}
+body.page2 {
+	background-image: url("images/bg/bg2.png");
+}
+body.page3 {
+	background-image: url("images/bg/bg3.png");
+}
+body.page4 {
+	background-image: url("images/bg/bg4.png");
+}
+body.page5 {
+	background-image: url("images/bg/bg5.png");
+}
+body.page6 {
+	background-image: url("images/bg/bg6.png");
+}
+
+nav {
+	position: fixed;
+	width: 85%;
+	margin: auto;
+	left: 0;
+	right: 0;
+	padding-top: 5px;
+	text-align: center;
+	text-transform: lowercase;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.navbar {
+	background-color: #13203C;
+	width: 80%;
+	height: 1px;
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+	margin-top: 28px;
+}
+nav .preload {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
+
+nav a {
+	color: #13203C;
+	font-family: La Belle Aurore;
+	font-weight: 300;
+	font-size: 3vw;
+	text-decoration: none;
+	padding: 10px;
+	white-space: nowrap;
+	opacity: 1;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	text-shadow: 0px 0px 10px #FFFFFF;
+}
+nav a:hover {
+	color: #FFE2C4;
+	opacity: 0.4;
+}
+
+nav .current {
+	font-weight: 400;
+}
+
+#main {
+	color: #000000;
+	font-size: 14px;
+	position: fixed;
+	height: 75%;
+	width: 400px;
+	top: 70px;
+	right: 5%;
+	padding: 15px;
+	overflow-y: scroll;
+	animation-name: fade-in-100;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.8s;
+}
+
+#mainbg {
+	padding: 25px 110px;
+	border-radius: 5px;
+	position: fixed;
+	height: 50%;
+	top: 170px;
+	width: 40px;
+	right: 5%;
+	background-color: #FFFFFF;
+	opacity: 0.4;
+	animation-name: fade-in-40;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+	z-index: -1;
+	margin-right: 95px;
+	-webkit-box-shadow: 0px 0px 20px 20px #FFFFFF;
+	-moz-box-shadow: 0px 0px 20px 20px #FFFFFF;
+	-o-box-shadow: 0px 0px 20px 20px #FFFFFF;
+	box-shadow: 0px 0px 100px 100px #FFFFFF;
+
+}
+
+#main2 {
+	color: #000000;
+	font-size: 14px;
+	position: fixed;
+	height: 35%;
+	width: 400px;
+	top: 170px;
+	right: 10%;
+	padding: 15px;
+	overflow-y: visible;
+	animation-name: fade-in-100;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.8s;
+}
+
+#mainbg2 {
+	padding: 25px 110px;
+	border-radius: 5px;
+	position: fixed;
+	height: 10%;
+	top: 170px;
+	width: 40px;
+	right: 10%;
+	background-color: #FFFFFF;
+	opacity: 0.4;
+	animation-name: fade-in-40;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+	z-index: -1;
+	margin-right: 95px;
+	-webkit-box-shadow: 0px 0px 20px 20px #FFFFFF;
+	-moz-box-shadow: 0px 0px 20px 20px #FFFFFF;
+	-o-box-shadow: 0px 0px 20px 20px #FFFFFF;
+	box-shadow: 0px 0px 100px 100px #FFFFFF;
+}
+
+h1 {
+	font-family: La Belle Aurore;
+	margin-bottom: -20px;
+	font-size: 26px;
+}
+
+h2 {
+	font-family: La Belle Aurore;
+	margin-bottom: -20px;
+	font-size: 26px;
+	display: inline;
+}
+
+h3 {
+	font-family: Amiri;
+	font-weight: bold;
+	font-size: 18px;
+	display: inline;
+}
+
+footer {
+	color: #FFFFFF;
+	font-size: 10px;
+	opacity: 0.2;
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+	z-index: 999;
+}
+
+@media only screen and (min-width: 550px) {
+	nav {
+		padding-top: 15px;
+	}
+	nav a {
+		font-size: 24px;
+		text-decoration: none;
+		padding: 5px 20px;
+	}
+	.navbar {
+		width: 50%;
+		height: 2px;
+		margin-top: 50px;
+	}
+	#main {
+		font-size: 16px;
+		top: 100px;
+		right: 10%;
+	}
+	#mainbg {
+		height: 75%;
+		top: 100px;
+		right: 10%;
+	}
+	h1 {
+		font-size: 32px;
+	}
+	h2 {
+		font-size: 28px;
+	}
+}
+
+@keyframes fade-in-100 {
+	0% {
+		opacity: 0;
+	}
+	66% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-in-40 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0.4;
+	}
+}
