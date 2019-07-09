@@ -167,6 +167,10 @@ h1 {
 	font-size: 26px;
 }
 
+#main2 h1 {
+	line-height: 0.5;
+}
+
 h2 {
 	font-family: La Belle Aurore;
 	margin-bottom: -20px;
