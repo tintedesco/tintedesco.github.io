@@ -62,8 +62,7 @@ nav .preload {
 
 nav a {
 	color: #13203C;
-	font-family: La Belle Aurore;
-	font-weight: 300;
+	font-family: Amiri;
 	font-size: 3vw;
 	text-decoration: none;
 	padding: 10px;
@@ -81,7 +80,7 @@ nav a:hover {
 }
 
 nav .current {
-	font-weight: 400;
+	font-weight: 700;
 }
 
 #main {
