@@ -208,12 +208,12 @@ footer {
 	#main {
 		font-size: 16px;
 		top: 100px;
-		right: 10%;
+		left: 50%;
 	}
 	#mainbg {
 		height: 75%;
 		top: 100px;
-		right: 10%;
+		left: 50%;
 	}
 	h1 {
 		font-size: 32px;
