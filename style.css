@@ -114,6 +114,7 @@ nav .current {
 	animation-timing-function: ease-in;
 	animation-duration: 0.5s;
 	z-index: -1;
+	margin-left: 95px;
 	-webkit-box-shadow: 0px 0px 20px 20px #FFFFFF;
 	-moz-box-shadow: 0px 0px 20px 20px #FFFFFF;
 	-o-box-shadow: 0px 0px 20px 20px #FFFFFF;
@@ -151,6 +152,7 @@ nav .current {
 	animation-timing-function: ease-in;
 	animation-duration: 0.5s;
 	z-index: -1;
+	margin-left: 95px;
 	-webkit-box-shadow: 0px 0px 20px 20px #FFFFFF;
 	-moz-box-shadow: 0px 0px 20px 20px #FFFFFF;
 	-o-box-shadow: 0px 0px 20px 20px #FFFFFF;
