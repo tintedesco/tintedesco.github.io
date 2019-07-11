@@ -85,7 +85,7 @@ nav .current {
 
 #main {
 	color: #000000;
-	font-size: 20px;
+	font-size: 14px;
 	position: fixed;
 	height: 75%;
 	width: 400px;
@@ -193,7 +193,7 @@ footer {
 	z-index: 999;
 }
 
-@media only screen and (min-width: 550px) or (min-device-width: 550px) {
+@media only screen and (min-width: 550px) {
 	nav {
 		padding-top: 15px;
 	}
