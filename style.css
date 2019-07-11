@@ -125,7 +125,7 @@ nav .current {
 	color: #000000;
 	font-size: 14px;
 	position: fixed;
-	height: 75%;
+	height: auto;
 	width: 400px;
 	top: 170px;
 	left: 50%;
