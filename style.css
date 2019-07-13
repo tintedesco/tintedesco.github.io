@@ -13,23 +13,23 @@ body {
 }
 
 body.page1 {
-	background-image: url("images/bg/bg1.png");
+	background-image: url("images/bg/bg1.jpg");
 	text-align: center;
 }
 body.page2 {
-	background-image: url("images/bg/bg2.png");
+	background-image: url("images/bg/bg2.jpg");
 }
 body.page3 {
-	background-image: url("images/bg/bg3.png");
+	background-image: url("images/bg/bg3.jpg");
 }
 body.page4 {
-	background-image: url("images/bg/bg4.png");
+	background-image: url("images/bg/bg4.jpg");
 }
 body.page5 {
-	background-image: url("images/bg/bg5.png");
+	background-image: url("images/bg/bg5.jpg");
 }
 body.page6 {
-	background-image: url("images/bg/bg6.png");
+	background-image: url("images/bg/bg6.jpg");
 }
 
 a {
