@@ -1,6 +1,7 @@
 body {
 	font-family: Amiri;
-	font-size: 18px;
+	/*font-size: 18px;*/
+	font-size: 20px;
 	line-height: 1.6;
 	color: #888888;
 	-webkit-background-size: cover;
@@ -45,7 +46,8 @@ a:hover {
 
 nav {
 	position: fixed;
-	width: 580px;
+	/*width: 580px;*/
+	width: 95%;
 	margin: auto;
 	left: 0;
 	right: 0;
@@ -67,8 +69,10 @@ nav .preload {
 nav a {
 	color: #13203C;
 	font-family: Amiri;
-	font-size: 24px;
-	padding: 5px 20px;
+	/*font-size: 24px;
+	padding: 5px 20px;*/
+	font-size: 4.5vw;
+	padding: 5px 10px;
 	text-decoration: none;
 	text-transform: lowercase;
 	white-space: nowrap;
@@ -87,10 +91,13 @@ nav .current {
 	color: #000000;
 	position: fixed;
 	height: 75%;
-	width: 400px;
-	top: 100px;
+	/*width: 400px;
 	left: 50%;
-	padding: 15px;
+	padding: 15px;*/
+	width: 95%;
+	left: 2%;
+	padding: 5px;
+	top: 100px;
 	overflow-y: scroll;
 	animation-name: fade-in-100;
 	animation-iteration-count: 1;
@@ -105,7 +112,8 @@ nav .current {
 	height: 75%;
 	top: 100px;
 	width: 40px;
-	left: 50%;
+	/*left: 50%;*/
+	left: 2.5%;
 	background-color: #FFFFFF;
 	opacity: 0.4;
 	animation-name: fade-in-40;
@@ -126,10 +134,13 @@ nav .current {
 	font-weight: bold;
 	position: fixed;
 	height: auto;
-	width: 400px;
-	top: 170px;
+	/*width: 400px;
 	left: 50%;
-	padding: 15px;
+	padding: 15px;*/
+	width: 95%;
+	left: 2%;
+	padding: 5px;
+	top: 170px;
 	overflow-y: visible;
 	animation-name: fade-in-100;
 	animation-iteration-count: 1;
@@ -143,8 +154,10 @@ nav .current {
 	position: fixed;
 	height: 10%;
 	top: 170px;
-	width: 40px;
-	left: 50%;
+	/*left: 50%;
+	width: 40px;*/
+	left: 5%;
+	width: 10%;
 	background-color: #FFFFFF;
 	opacity: 0.4;
 	animation-name: fade-in-40;
@@ -231,6 +244,33 @@ footer {
 }
 
 @media only screen and (min-width: 550px) {
+	body {
+		font-size: 18px;
+	}
+	nav {
+		width: 580px;
+	}
+	nav a {
+		font-size: 24px;
+		padding: 5px 20px;
+	}
+	#main {
+		width: 400px;
+		left: 50%;
+		padding: 15px;
+	}
+	#mainbg {
+		left: 50%;
+	}
+	#main0 {
+		width: 400px;
+		left: 50%;
+		padding: 15px;
+	}
+	#mainbg0 {
+		left: 50%;
+		width: 40px;
+	}
 }
 
 @keyframes fade-in-100 {
