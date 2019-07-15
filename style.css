@@ -93,6 +93,7 @@ nav .current {
 	position: fixed;
 	height: 75%;
 	/*width: 400px;
+	top: 100px;
 	left: 50%;
 	padding: 15px;*/
 	width: 95%;
@@ -111,6 +112,7 @@ nav .current {
 	position: fixed;
 	/*height: 60%;
 	width: 30px;
+	top: 100px;
 	left: 50%;
 	margin-top: 80px;
 	padding: 0px 100px;*/
@@ -266,12 +268,14 @@ footer {
 	}
 	#main {
 		width: 400px;
+		top: 100px;
 		left: 50%;
 		padding: 15px;
 	}
 	#mainbg {
 		height: 60%;
 		width: 30px;
+		top: 100px;
 		left: 50%;
 		margin-top: 80px;
 		padding: 0px 100px;
