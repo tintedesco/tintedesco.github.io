@@ -106,25 +106,29 @@ nav .current {
 }
 
 #mainbg {
-	padding: 25px 110px;
-	border-radius: 5px;
 	position: fixed;
+	/*height: 60%;
+	width: 30px;
+	left: 50%;
+	margin-top: 80px;
+	padding: 0px 100px;*/
 	height: 75%;
-	top: 100px;
 	width: 40px;
-	/*left: 50%;*/
+	top: 100px;
 	left: 2.5%;
+	margin-left: 95px;
+	padding: 25px 110px;
 	background-color: #FFFFFF;
+	border-radius: 5px;
 	opacity: 0.4;
 	animation-name: fade-in-40;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 0.5s;
 	z-index: -1;
-	margin-left: 95px;
-	-webkit-box-shadow: 0px 0px 20px 20px #FFFFFF;
-	-moz-box-shadow: 0px 0px 20px 20px #FFFFFF;
-	-o-box-shadow: 0px 0px 20px 20px #FFFFFF;
+	-webkit-box-shadow: 0px 0px 100px 100px #FFFFFF;
+	-moz-box-shadow: 0px 0px 100px 100px #FFFFFF;
+	-o-box-shadow: 0px 0px 100px 100px #FFFFFF;
 	box-shadow: 0px 0px 100px 100px #FFFFFF;
 }
 
@@ -260,7 +264,11 @@ footer {
 		padding: 15px;
 	}
 	#mainbg {
+		height: 60%;
+		width: 30px;
 		left: 50%;
+		margin-top: 80px;
+		padding: 0px 100px;
 	}
 	#main0 {
 		width: 400px;
