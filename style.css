@@ -149,12 +149,11 @@ nav .current {
 	height: auto;
 	/*width: 400px;
 	left: 50%;
-	padding: 15px;
-	top: 170px;*/
+	padding: 15px;*/
+	top: 170px;
 	width: 95%;
 	left: 2%;
 	padding: 0px;
-	top: 90px;
 	overflow-y: visible;
 	animation-name: fade-in-100;
 	animation-iteration-count: 1;
@@ -167,11 +166,10 @@ nav .current {
 	border-radius: 5px;
 	position: fixed;
 	height: 10%;
+	top: 170px;
 	/*left: 50%;
-	width: 40px;
-	top: 170px;*/
+	width: 40px;*/
 	left: 5%;
-	top: 90px;
 	width: 10%;
 	background-color: #FFFFFF;
 	opacity: 0.4;
@@ -181,9 +179,9 @@ nav .current {
 	animation-duration: 0.5s;
 	z-index: -1;
 	margin-left: 95px;
-	-webkit-box-shadow: 0px 0px 20px 20px #FFFFFF;
-	-moz-box-shadow: 0px 0px 20px 20px #FFFFFF;
-	-o-box-shadow: 0px 0px 20px 20px #FFFFFF;
+	-webkit-box-shadow: 0px 0px 100px 100px #FFFFFF;
+	-moz-box-shadow: 0px 0px 100px 100px #FFFFFF;
+	-o-box-shadow: 0px 0px 100px 100px #FFFFFF;
 	box-shadow: 0px 0px 100px 100px #FFFFFF;
 }
 
@@ -289,12 +287,10 @@ footer {
 		width: 400px;
 		left: 50%;
 		padding: 15px;
-		top: 170px;
 	}
 	#mainbg0 {
 		left: 50%;
 		width: 40px;
-		top: 170px;
 	}
 }
 
