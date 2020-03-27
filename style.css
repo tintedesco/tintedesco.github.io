@@ -236,6 +236,27 @@ footer {
 	z-index: 999;
 }
 
+#banner {
+	color: #954759;
+	background-color: #D1DEE1;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	left: 0px;
+	top: 200px;
+	font-size: 36px;
+	text-align: center;
+	opacity: 0.85;
+	z-index: 1;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+#banner:hover {
+	opacity: 1;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
