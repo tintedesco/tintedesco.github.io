@@ -318,49 +318,6 @@ footer {
 	}
 }
 
-@media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-	body {
-		font-size: 18px;
-	}
-	nav {
-		width: 580px;
-		padding-top: 15px;
-	}
-	nav a {
-		font-size: 24px;
-		padding: 5px 20px;
-	}
-	#main {
-		width: 400px;
-		top: 100px;
-		left: 50%;
-		padding: 15px;
-	}
-	#mainbg {
-		height: 60%;
-		width: 30px;
-		top: 100px;
-		left: 50%;
-		margin-top: 80px;
-		padding: 0px 100px;
-	}
-	#main0 {
-		width: 400px;
-		left: 50%;
-		padding: 15px;
-	}
-	#mainbg0 {
-		left: 50%;
-		width: 40px;
-	}
-	#banner {
-		top: 200px;
-	}
-}
-
 @keyframes fade-in-100 {
 	0% {
 		opacity: 0;
