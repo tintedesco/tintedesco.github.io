@@ -243,7 +243,7 @@ footer {
 	width: 100%;
 	height: auto;
 	left: 0px;
-	top: 200px;
+	top: 15%;
 	font-size: 36px;
 	text-align: center;
 	opacity: 0.85;
@@ -312,6 +312,9 @@ footer {
 	#mainbg0 {
 		left: 50%;
 		width: 40px;
+	}
+	#banner {
+		top: 200px;
 	}
 }
 
